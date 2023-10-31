@@ -1,0 +1,572 @@
+:root {
+    --top-bar-height: 80px;
+    --desc-font: 'Space Grotesk';
+    --fonts: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    font-family: var(--fonts);
+    color: white;
+}
+
+div, a {
+    transition: 0.2s;
+}
+
+.desc-font,
+.desc-font *,
+p {
+    font-family: var(--desc-font), var(--fonts);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0a112d;
+}
+
+a {
+    color: unset;
+    text-decoration: unset;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+a.link {
+    display: inline-block;
+    border: solid 1px #afd7fd;
+    border-radius: 10px;
+    background-color: #afd7fd22;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.link::after {
+    content: "🔗";
+    display: inline-block;
+    margin-left: 3px;
+    transition: 0.2s;
+}
+
+a.link[target="_blank"]::after {
+    content: "↗";
+}
+
+a.link:hover {
+    background-color: #afd7fd;
+    color: black;
+}
+
+a.link[target="_blank"]:hover::after {
+    transform: translate(1px, -1px);
+    animation: link-after-point 1s ease-in-out 0s infinite forwards;
+}
+
+@keyframes link-after-point {
+    0%, 100% {
+        transform: translate(-1px, 1px);
+    }
+    50% {
+        transform: translate(1px, -1px);
+    }
+}
+
+button, .button {
+    background-color: #182a61;
+    color: #afd7fd;
+    border: solid 4px;
+}
+
+button h1,
+button p,
+.button h1,
+.button p {
+    margin: 0;
+}
+
+button.fancy-btn,
+.button.fancy-btn {
+    box-shadow: 0px 0px 16px #afd7fd;
+}
+
+button.fancy-btn:hover,
+.button.fancy-btn:hover {
+    text-shadow: 0px 0px 10px #00000088;
+    box-shadow: 0px 0px 12px #2f448388, inset 0px 0px 10px #000000;
+    border-color: white;
+}
+
+.big-btn:hover {
+    transform: scale(1.1);
+}
+
+button:hover, .button:hover {
+    background-color: #2f4483;
+    border-color: #2f4483;
+    box-shadow: 0px 0px 12px #00000088;
+    color: white;
+}
+
+button:hover *, .button:hover * {
+    color: white;
+}
+
+button *,
+.button * {
+    color: #afd7fd;
+}
+
+.img,
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cant-touch-this {
+    pointer-events: none;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.top-bar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--top-bar-height);
+    z-index: 1030;
+    background-color: #00000033;
+    backdrop-filter: blur(10px);
+}
+
+.top-bar>div {
+    align-self: center;
+}
+
+.top-bar-title {
+    white-space: nowrap;
+}
+
+.top-bar-title:hover {
+    text-shadow: 0px 0px 20px white;
+}
+
+.top-bar-title>h1>#tbt-mountain {
+    margin-left: 10px;
+    font-weight: 900;
+}
+
+.top-bar-title>h1>#tbt-hacks {
+    font-weight: 200;
+}
+
+.top-bar-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.top-bar-link-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.top-bar-link {
+    margin-left: 8px;
+    margin-right: 8px;
+    white-space: nowrap;
+    align-self: center;
+    text-decoration: underline solid 3px transparent;
+}
+
+.top-bar-link:hover {
+    text-decoration-color: #ffffff44;
+}
+
+.top-bar-link * {
+    margin: 0;
+}
+
+.top-bar-menu {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.top-bar-menu>ion-icon {
+    font-size: 30px;
+    transition: transform 0.3s;
+}
+
+.top-bar-menu:hover>ion-icon {
+    transform: rotate(180deg) scale(1.1);
+}
+
+.main-content {
+    margin-top: var(--top-bar-height);
+}
+
+.banner {
+    width: 100%;
+    height: calc(100vh - var(--top-bar-height));
+    min-height: max-content;
+    overflow: hidden;
+}
+
+.banner * {
+    z-index: 20;
+}
+
+.banner-content {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-logo {
+    width: 700px;
+    max-width: 90vw;
+    filter: drop-shadow(0px 0px 10px #afd7fd);
+    animation: pulse 10s ease-in-out 0s infinite forwards;
+}
+
+@keyframes pulse {
+    0%,100% {
+        transform: scale(0.98);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+}
+
+.banner-info-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.banner-info-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: #00000088;
+    width: 350px;
+    margin: 20px;
+    text-shadow: 0px 0px 10px #000000;
+    box-shadow: 0px 0px 10px #00000088;
+    outline: solid 2px #00000044;
+}
+
+.banner-info-card:hover {
+    background-color: #000000cc;
+    outline: solid 2px #ffffff44;
+}
+
+.banner-info-card ion-icon {
+    font-size: 100px;
+    margin-right: 20px;
+}
+
+.banner-quick-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.banner-quick-link {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+#banner-sign-up-btn::after {
+    content: 'COMING SOON!';
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    border-radius: 30px;
+    text-align: center;
+    background-color: inherit;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-weight: 200;
+    font-size: 200%;
+    transition: 0.3s;
+}
+#banner-sign-up-btn:hover::after {
+    display: block;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.banner-bg-effect {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 15;
+    pointer-events: none;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.5;
+}
+
+.socials-container {
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+    z-index: 21;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000066;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin: 7px;
+}
+
+.socials-container[smallified='1'] {
+    left: 2px;
+    bottom: 2px;
+    flex-direction: column;
+}
+.socials-container[smallified='1'] .social {
+    margin: 4px;
+    width: 30px;
+    height: 30px;
+}
+
+.social.gh {
+    box-shadow: 0px 0px 20px #B400FF77 inset, 0px 0px 15px #B400FF66;
+    color: #B400FF;
+    background-image: url(/assets/icons/minimal/github_minimal.png);
+}
+.social.ig {
+    box-shadow: 0px 0px 20px #FA368E77 inset, 0px 0px 15px #FA368E66;
+    color: #FA368E;
+    background-image: url(/assets/icons/minimal/instagram_minimal.png);
+}
+.social.yt {
+    box-shadow: 0px 0px 20px #ff000077 inset, 0px 0px 15px #ff000066;
+    color: #ff0000;
+    background-image: url(/assets/icons/minimal/youtube_minimal.png);
+}
+
+.social.gh:hover {
+    background-color: #4b006b66;
+}
+.social.ig:hover {
+    background-color: #7a003766;
+}
+.social.yt:hover {
+    background-color: #61000066;
+}
+
+.social::after {
+    position: absolute;
+    right: 0;
+    font-family: var(--desc-font), var(--fonts);
+    text-shadow: 0px 0px 5px black;
+    color: white;
+    transform: translateX(80%);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.social:hover::after {
+    transform: translateX(100%);
+    opacity: 0.7;
+}
+
+.social.gh::after {
+    content: "Github";
+}
+.social.ig::after {
+    content: "Instagram";
+}
+.social.yt::after {
+    content: "YouTube";
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section {
+    width: calc(100vw - 50px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-self: center;
+}
+
+.section.side-by-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-side {
+    flex: 0.5;
+    padding-left: 12px;
+    padding-right: 12px;
+    max-width: 90vw;
+}
+
+.section-side .img,
+.section-side img {
+    transform: scale(0.7);
+    border: solid 10px white;
+    box-shadow: 0px 0px 20px white;
+}
+
+.section-side .img.tilt-left,
+.section-side img.tilt-left {
+    transform: scale(0.7) rotate(-4deg);
+}
+.section-side .img.tilt-right,
+.section-side img.tilt-right {
+    transform: scale(0.7) rotate(4deg);
+}
+
+h1.section-title {
+    font-size: 300%;
+}
+
+p.section-title {
+    font-size: 200%;
+}
+
+.big-num-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.big-num-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.big-num-card h1,
+.big-num-card p {
+    margin: 0;
+}
+
+.big-num-card h1 {
+    text-shadow: 0px 0px 20px #ffffff88;
+    font-size: 500%;
+}
+
+@media (max-width: 900px) {
+    .banner-info-card {
+        padding: 4px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 8px;
+        min-width: initial;
+        width: fit-content;
+        margin: 2px;
+    }
+    .banner-info-card ion-icon {
+        font-size: 50px;
+        margin-right: 12px;
+    }
+    .banner-info-card h1 {
+        font-size: 150%;
+    }
+
+    .banner-quick-link {
+        padding: 10px;
+    }
+    .banner-quick-link h1 {
+        font-size: 150%;
+    }
+
+    .section.side-by-side {
+        flex-direction: column;
+    }
+
+    .section.side-by-side.flipped {
+        flex-direction: column-reverse;
+    }
+
+    .section-side .img.tilt-left,
+    .section-side img.tilt-left {
+        transform: scale(0.7);
+    }
+    .section-side .img.tilt-right,
+    .section-side img.tilt-right {
+        transform: scale(0.7);
+    }
+
+    .top-bar-title {
+        font-size: 80%;
+    }
+
+    .top-bar-link-container {
+        flex-wrap: wrap;
+        justify-content: right;
+    }
+
+    .top-bar-link {
+        margin: 3px;
+        padding: 2px;
+        font-size: smaller;
+    }
+}
