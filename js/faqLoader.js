@@ -8,7 +8,7 @@ addEventListener("DOMContentLoaded", ev => {
 var faqData = {};
 
 async function fetchFaqData(updateElements=true) {
-    var req = await fetch("/data/faq.json");
+    var req = await fetch("./data/faq.json");
     if (req.ok) {
         faqData = await req.json();
         if (updateElements) updateFaqElements();

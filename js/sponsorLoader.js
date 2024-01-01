@@ -8,7 +8,7 @@ addEventListener("DOMContentLoaded", ev => {
 var sponsorData = {};
 
 async function fetchSponsorData(updateElements=true) {
-    var req = await fetch("/data/sponsors.json");
+    var req = await fetch("./data/sponsors.json");
     if (req.ok) {
         sponsorData = await req.json();
         if (updateElements) updateSponsorCards();

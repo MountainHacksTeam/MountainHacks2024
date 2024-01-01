@@ -8,7 +8,7 @@ addEventListener("DOMContentLoaded", ev => {
 var personData = {};
 
 async function fetchPersonData(updateElements=true) {
-    var req = await fetch("/data/organizers.json");
+    var req = await fetch("./data/organizers.json");
     if (req.ok) {
         personData = await req.json();
         if (updateElements) updatePersonCards();
