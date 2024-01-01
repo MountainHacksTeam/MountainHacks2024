@@ -3,7 +3,7 @@
         "name": "Akshat Sehgal",
         "role": "role",
         "desc": "desc",
-        "img": "/data/assets/organizers/akshat.JPG",
+        "img": "./data/assets/organizers/akshat.JPG",
         "socials": {
             "instagram": "https://instagram.com/the_akze",
             "github": "https://github.com/the-akze",
@@ -16,7 +16,7 @@
         "name": "Sahasra Kairamkonda",
         "role": "role",
         "desc": "Senior @ MHHS. Web developer, machine learning enthusiast, and AI ethics proponent. Enjoys creating digital art and trying new foods. Always looking for ways to explore!",
-        "img": "/data/assets/organizers/sahasra.jpg",
+        "img": "./data/assets/organizers/sahasra.jpg",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/sahasra-kairamkonda/"
         }
@@ -25,7 +25,7 @@
         "name": "Yashmit Bhaverisetti",
         "role": "role",
         "desc": "desc",
-        "img": "/data/assets/organizers/yashmit.jpeg",
+        "img": "./data/assets/organizers/yashmit.jpeg",
         "socials": {
         }
     },
@@ -33,7 +33,7 @@
         "name": "Dhruv Jena",
         "role": "role",
         "desc": "desc",
-        "img": "/data/assets/organizers/dhruv.jpeg",
+        "img": "./data/assets/organizers/dhruv.jpeg",
         "socials": {
         }
     },
@@ -41,7 +41,7 @@
         "name": "Ritvick Raghuvanshi",
         "role": "role",
         "desc": "desc",
-        "img": "/data/assets/organizers/ritvick.jpeg",
+        "img": "./data/assets/organizers/ritvick.jpeg",
         "socials": {
         }
     }

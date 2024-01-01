@@ -465,17 +465,17 @@ hr {
 .social.gh {
     box-shadow: 0px 0px 20px #B400FF77 inset, 0px 0px 15px #B400FF66;
     color: #B400FF;
-    background-image: url(/assets/icons/minimal/github_minimal.png);
+    background-image: url(./assets/icons/minimal/github_minimal.png);
 }
 .social.ig {
     box-shadow: 0px 0px 20px #FA368E77 inset, 0px 0px 15px #FA368E66;
     color: #FA368E;
-    background-image: url(/assets/icons/minimal/instagram_minimal.png);
+    background-image: url(./assets/icons/minimal/instagram_minimal.png);
 }
 .social.yt {
     box-shadow: 0px 0px 20px #ff000077 inset, 0px 0px 15px #ff000066;
     color: #ff0000;
-    background-image: url(/assets/icons/minimal/youtube_minimal.png);
+    background-image: url(./assets/icons/minimal/youtube_minimal.png);
 }
 
 .social.gh:hover {
