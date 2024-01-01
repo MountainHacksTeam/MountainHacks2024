@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20230407T050750Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20231221T204616Z
+UID:1703191550710-18342@ical.marudot.com
+DTSTART;VALUE=DATE:20240316
+DTEND;VALUE=DATE:20240317
+SUMMARY:MountainHacks 2024
+DESCRIPTION:MountainHacks 2024 — In-Person Hackathon\n\nAn in-person hackathon with tons of cool stuff: food\, swag (merch)\, workshops\, prizes\, and dev tools for ALL hackers!\n\nOpen to all high-school students grades 9-12\, and to all experience levels! Whether you're a beginner or advanced\, you're invited to MountainHacks 2024.\n\nWhether you're looking to learn new coding skills or build revolutionary apps and win prizes\, MountainHacks 2024 is for YOU! We'll have developer tools\, opportunities\, and workshops for everyone.
+LOCATION:Mountain House High School\, 1090 S. Central Parkway\, 1090 Central Pkwy\, Mountain House\, CA 95391\, USA
+END:VEVENT
+END:VCALENDAR

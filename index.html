@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
 
-    <link rel="icon" href="assets/favicon.png" />
+    <link rel="icon" href="assets/icons/mountain_hacks_favicon.png" />
 
     <link href="https://fonts.googleapis.com/css?family=Space Grotesk" rel="stylesheet">
 
@@ -14,6 +14,7 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <title>MountainHacks 2024</title>
+
 </head>
 
 <body>
@@ -43,30 +44,32 @@
             <div class="banner-content">
                 <img class="banner-logo" alt="MOUNTAIN HACKS 2024" src="/assets/img/mountainhacks_2024(web).png"/>
                 <div class="banner-info-card-container desc-font">
-                    <div class="banner-info-card">
+                    <a class="banner-info-card" href="/assets/misc/MountainHacks2024Calendar.ics" target="_blank">
                         <ion-icon name="calendar"></ion-icon>
-                        <h1>
-                            March 16<br>
-                            <span style="font-size: larger;">2024</span>
-                        </h1>
-                    </div>
-                    <div class="banner-info-card">
+                        <h2>
+                            March 16, 2024
+                        </h2>
+                    </a>
+                    <a class="banner-info-card" href="https://maps.app.goo.gl/W9Rfu7AQEM6so5yA7" target="_blank">
                         <ion-icon name="location"></ion-icon>
-                        <h1>
-                            <span style="font-size: smaller">
-                                Mountain House <br>
-                                High School
-                            </span>
-                        </h1>
-                    </div>
+                        <h2>
+                            Mountain House High School
+                        </h2>
+                    </a>
                 </div>
                 <div class="banner-quick-links-container desc-font">
-                    <a class="banner-quick-link button fancy-btn big-btn" id="banner-sign-up-btn">
-                        <h1>SIGN UP NOW! →</h1>
+                    <a target="_blank" class="banner-quick-link button fancy-btn big-btn" id="banner-sign-up-btn" disabled>
+                        <h1>SIGN UP COMING SOON</h1>
                     </a>
+                    <!-- <a href="" target="_blank" class="banner-quick-link button fancy-btn big-btn" id="banner-sign-up-btn">
+                        <h1>SIGN UP! →</h1>
+                    </a> -->
                 </div>
             </div>
             <div class="banner-bg-effect banner-bg-img" style="background-image: url(/assets/camera/group_pic.jpg);"></div>
+            <div class="banner-bg-effect" id="down-arrow-container">
+                <h1 id="down-arrow-effect" onclick="scrollToContent()">↓</h1>
+            </div>
         </div>
         <div class="socials-container">
             <a class="social gh" href="https://github.com/mountainHacksTeam" target="_blank"></a>
@@ -91,12 +94,175 @@
                         </h1>
                         <p class="section-description">HOUR HACKATHON</p>
                     </div>
+                    <div class="big-num-card">
+                        <h1>
+                            $TBD
+                        </h1>
+                        <p class="section-description">IN DEV TOOLS</p>
+                    </div>
+                    <div class="big-num-card">
+                        <h1>
+                            $TBD
+                        </h1>
+                        <p class="section-description">IN PRIZES</p>
+                    </div>
                 </div>
             </div>
+
+            <div class="section">
+                <h1 class="section-title center-text">
+                    ABOUT
+                </h1>
+                <p class="center-text">
+                    A 14-hour hackathon for high-school students taking place on March 16, 2023 at Mountain House High School!
+                </p>
+                <div class="cards-container">
+                    <div class="card">
+                        <h2 class="section-title desc-font">
+                            WHO?
+                        </h2>
+                        <p>
+                            Open to all high-school students grades
+                            9-12, and to all experience levels!
+                            Whether you're a beginner or advanced,
+                            you're invited to MountainHacks 2024.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h2 class="section-title desc-font">
+                            WHAT?
+                        </h2>
+                        <p>
+                            An in-person hackathon with tons of cool
+                            stuff: food, swag (merch), workshops,
+                            prizes, and dev tools for ALL hackers!
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h2 class="section-title desc-font">
+                            WHY?
+                        </h2>
+                        <p>
+                            Whether you're looking to learn new coding
+                            skills or build revolutionary apps and win
+                            prizes, MountainHacks 2024 is for YOU! We'll
+                            have developer tools, opportunities, and
+                            workshops for everyone.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h1 class="section-title center-text">
+                    SPONSORS
+                </h1>
+                <p class="center-text">
+                    Sponsors make MountainHacks 2024 possible!
+                </p>
+                <h3 class="center-text">
+                    To sponsor MountainHacks 2024, please contact the email at the bottom of the page.
+                    <br>
+                    Sponsoring us will help the hackathon run a lot smoother, and give us a lot more to offer to hackers!
+                </h3>
+                <div class="center-flex">
+                    <div class="cards-container sponsor">
+                        <noscript>
+                            <h1>
+                                Please enable JavaScript.
+                            </h1>
+                        </noscript>
+                        <a class="card sponsor template" target="_blank">
+                            <img src=""/>
+                            <p class="sponsor-name">name</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h1 class="section-title center-text">
+                    ORGANIZERS
+                </h1>
+                <p class="center-text">
+                    Meet the people organizing MountainHacks 2024!
+                </p>
+                <div class="cards-container person">
+                    <noscript>
+                        <h1>
+                            Please enable JavaScript.
+                        </h1>
+                    </noscript>
+                    <div class="card person template">
+                        <div class="card-section">
+                            <h1 class="section-title center-text">
+                                <noscript>Enable JS</noscript>
+                            </h1>
+                            <h2 class="section-subtitle center-text">
+                                <noscript>Enable JS</noscript>
+                            </h2>
+                            <p class="desc">
+                                <noscript>Please enable JavaScript.</noscript>
+                            </p>
+                        </div>
+                        <div class="card-section">
+                            <img src=""/>
+                            <div class="socials">
+                                <a class="instagram" style="display: none;" href="https://instagram.com" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                                <a class="github" style="display: none;" href="https://github.com" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                                <a class="youtube" style="display: none;" href="https://youtube.com" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                                <a class="linkedin" style="display: none;" href="https://linkedin.com" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                <a class="twitter" style="display: none;" href="https://twitter.com" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h1 class="section-title center-text">
+                    FAQ
+                </h1>
+                <p class="center-text">
+                    Frequently asked questions...
+                </p>
+                <div class="faq what-is-mountainhacks">
+                    <div class="faq-btn" onclick="scrollToContent()">
+                        <h3 class="faq-question">
+                            What is MountainHacks?
+                        </h3>
+                    </div>
+                    <div class="faq-dropdown">
+                        <p class="faq-answer">
+                            ...
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-container">
+                    <noscript>
+                        <h1>
+                            Please enable JavaScript.
+                        </h1>
+                    </noscript>
+                    <div class="faq template">
+                        <div class="faq-btn" onclick="this.parentNode.classList.toggle('open')">
+                            <h3 class="faq-question">
+                                Question
+                            </h3>
+                        </div>
+                        <div class="faq-dropdown">
+                            <p class="faq-answer">
+                                Answer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="section side-by-side">
                 <div class="section-side">
-                    <!-- <img src="/assets/camera/group_pic.jpg" class="tilt-left"/> -->
-                    <video class="img tilt-left cant-touch-this" src="/assets/video/mountainhacks23_group_vid_small.mp4" loop autoplay muted webkit-playsinline playsinline></video>
+                    <img src="/assets/camera/group_pic.jpg" class="tilt-left"/>
+                    <!-- <video class="img tilt-left cant-touch-this" src="/assets/video/mountainhacks23_group_vid_small.mp4" loop autoplay muted webkit-playsinline playsinline></video> -->
                 </div>
                 <div class="section-side section-text-container">
                     <h1 class="section-title">Last year...<br>Mountain Hacks 2023</h1>
@@ -104,14 +270,34 @@
                         Last year, we had over 150 hackers code amazing innovative projects and learn a lot of new skills through their experience.
                         You can see last year's recap video here: <a class="link" href="https://youtu.be/MDv_EsdoPWM" target="_blank">MountainHacks 2023 - YouTube</a>
                         <br>
-                        For Mountain Hacks 2024, we're excited to make it an even better experience!
                     </p>
+                </div>
+            </div>
+
+            <hr/>
+
+            <div class="section">
+                <h1 class="section-title center-text">
+                    SIGN UP FOR MOUNTAIN HACKS 2024
+                </h1>
+                <p class="center-text">What are you waiting for? Click below to sign up!</p>
+                <script>
+                    document.write(document.querySelector("#banner-sign-up-btn").parentElement.outerHTML);
+                </script>
+                <p class="center-text section-title no-margin">MountainHacks 2024</p>
+                <div class="flex-row">
+                    <p>Contact:&nbsp;</p>
+                    <p><a class="link" href="mailto:mountainhacksteam@gmail.com" target="_blank">mountainhacksteam@gmail.com</a></p>
+                    <div class="button small-btn" data-copy-text="mountainhacksteam@gmail.com" onclick="copyBtnClicked(this)"><ion-icon name="copy"></ion-icon><p>copy</p></div>
                 </div>
             </div>
         </div>
     </div>
 
     <script src="/js/script.js"></script>
+    <script src="/js/personCardLoader.js"></script>
+    <script src="/js/sponsorLoader.js"></script>
+    <script src="/js/faqLoader.js"></script>
 </body>
 
 </html>

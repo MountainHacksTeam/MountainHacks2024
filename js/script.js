@@ -76,3 +76,37 @@ function growAllNumberAnim(fractions) {
         growNumberAnim(animatedNums.item(e), fractions);
     }
 }
+
+var topBar = document.querySelector(".top-bar");
+
+function scrollToContent() {
+    window.scroll({
+        left: 0,
+        top: window.innerHeight - topBar.offsetHeight,
+        behavior: "smooth"
+    });
+}
+
+function clearNonTemplates(containerSelector) {
+    var faqContainer = document.querySelector(containerSelector);
+    for (var e in faqContainer.children) {
+        var elem = faqContainer.children.item(e);
+        if (!elem.classList.contains("template")) elem.remove();
+    }
+}
+
+function copyBtnClicked(element) {
+    var text = element.getAttribute("data-copy-text");
+    navigator.clipboard.writeText(text).then(() => {
+        console.log("copied " + text);
+        var ogText = element.querySelector("p").innerText;
+        if (ogText != "copied") {
+            element.querySelector("p").innerText = "copied";
+            setTimeout(() => {
+                element.querySelector("p").innerText = ogText;
+            }, 1000);
+        }
+    }).catch(reason => {
+        console.log("error:", reason);
+    });
+}
