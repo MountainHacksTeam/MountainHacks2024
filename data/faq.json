@@ -1,18 +1,22 @@
 [
     {
+        "question": "What is a hackathon?",
+        "answer": "Hackathons can be a great way for people to learn new skills, collaborate with others, and build something creative in a short period of time. They can be especially beneficial for people who are interested in technology, as they provide an opportunity to work on projects that involve programming, design, and problem-solving.\n\nParticipating in a hackathon can also be a fun and exciting way to challenge oneself and push the boundaries of one's abilities. It can be a great opportunity to network with other people in the industry and potentially meet future colleagues or mentors.\n\nAdditionally, hackathons can be a great way for people to gain recognition for their work and potentially even land a job or internship. Many hackathons are sponsored by companies, who may be looking for talented individuals to join their teams."
+    },
+    {
         "question": "Do I need experience to participate?",
-        "answer": "-"
+        "answer": "MountainHacks 2024 is open to ALL students that have an interest in coding! We'll be hosting several workshops to teach you many different things in case you're a beginner and want to learn. Additionally, you can use that new knowledge to make your project!"
     },
     {
         "question": "What should I bring?",
-        "answer": "-"
+        "answer": "You’ll be using your laptop to make your project, so be sure to bring that, a charger, and other accessories such as a keyboard or mouse. We recommend bringing your home computer rather than a school Chromebook, as it allows you to do a lot more things without restrictions.\n\nOther than tech, bring a water bottle so you can stay hydrated throughout the day.\n\nMost of all, come with an open mind and a willingness to learn and collaborate!"
     },
     {
         "question": "How much will it cost?",
-        "answer": "-"
+        "answer": "MountainHacks will be free to attend! We’ll have meals, snacks, and beverages onsite at the hackathon, as well as swag, prizes, and fun mini-events, including workshops."
     },
     {
         "question": "What should I make?",
-        "answer": "-"
+        "answer": "You can use any technology or language to make your project!\n\nHere are some examples of what you can make:\nA mobile or web app\nA software tool or utility\nA hardware prototype or device\nA machine learning model or data visualization\nA game or interactive experience\n\nTry getting inspiration by looking up real-world problems you can solve, browsing GitHub, Devpost, and other developer sites, and exploring new technologies!"
     }
 ]
