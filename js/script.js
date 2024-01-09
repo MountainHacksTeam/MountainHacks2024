@@ -110,3 +110,9 @@ function copyBtnClicked(element) {
         console.log("error:", reason);
     });
 }
+
+
+
+function scrollToSection(section) {
+    document.querySelector("[data-section=" + section + "]").scrollIntoView({behavior: "smooth", block: "nearest"});
+}

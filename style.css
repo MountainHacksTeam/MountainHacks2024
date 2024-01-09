@@ -252,15 +252,27 @@ hr {
     white-space: nowrap;
     align-self: center;
     text-decoration: underline solid 3px transparent;
+    text-align: center;
 }
 
-.top-bar-link:hover {
+.top-bar-link:hover:not(.disabled) {
     /* text-decoration-color: #ffffff44; */
     background-color: #ffffff11;
 }
 
 .top-bar-link * {
     margin: 0;
+}
+
+.top-bar-link p .mini {
+    display: inline-block;
+    text-align: left;
+    vertical-align: super;
+    font-size: 50%;
+}
+
+.top-bar-link.disabled {
+    cursor: default;
 }
 
 .top-bar-menu {
@@ -924,6 +936,8 @@ p.section-title {
         margin: 3px;
         padding: 2px;
         font-size: smaller;
+        height: fit-content;
+        border-radius: 5px;
     }
 
     .section>h1.section-title {
