@@ -1,8 +1,8 @@
 [
     {
         "name": "Akshat Sehgal",
-        "role": "role",
-        "desc": "desc",
+        "role": "Logistics/Dev/Marketing",
+        "desc": "Junior @ MHHS, Programmer/Dev, Music Producer, 3D Artist, Video Editor, Photographer, Boy Scout, and Robotics enthusiast. Been to 15+ hackathons and won tons of prizes. Officer of Hackathon, Circuitry, and Robotics Club, and part of VEX robotics. Excited to be lead of MountainHacks 2024!",
         "img": "./data/assets/organizers/akshat.JPG",
         "socials": {
             "instagram": "https://instagram.com/the_akze",
@@ -14,7 +14,7 @@
     },
     {
         "name": "Sahasra Kairamkonda",
-        "role": "role",
+        "role": "Logistics/Marketing",
         "desc": "Senior @ MHHS. Web developer, machine learning enthusiast, and AI ethics proponent. Enjoys creating digital art and trying new foods. Always looking for ways to explore!",
         "img": "./data/assets/organizers/sahasra.jpg",
         "socials": {
@@ -23,15 +23,18 @@
     },
     {
         "name": "Yashmit Bhaverisetti",
-        "role": "role",
-        "desc": "desc",
+        "role": "Logistics/Finance",
+        "desc": "Junior @ MHHS. Passionate Programmer experienced in many coding languages. Ardent in Robotics, Photography, Circuitry, Digital Art, and Scouts. Part of a VEX & FTC team. Won over half of the 15+ hackathons competed in.",
         "img": "./data/assets/organizers/yashmit.jpeg",
         "socials": {
+            "instagram": "https://www.instagram.com/yashmit.bhaverisetti/",
+            "github": "https://github.com/yashmitb",
+            "linkedin": "https://www.linkedin.com/in/yashmit-bhaverisetti-77b211261/"
         }
     },
     {
         "name": "Dhruv Jena",
-        "role": "role",
+        "role": "Logistics/Finance",
         "desc": "desc",
         "img": "./data/assets/organizers/dhruv.jpeg",
         "socials": {
@@ -39,9 +42,41 @@
     },
     {
         "name": "Ritvick Raghuvanshi",
-        "role": "role",
+        "role": "",
         "desc": "desc",
         "img": "./data/assets/organizers/ritvick.jpeg",
+        "socials": {
+        }
+    },
+    {
+        "name": "Shayaan Tanveer",
+        "role": "",
+        "desc": "Senior @ MHHS. I like coding and technology because they are very cool. I’m very hyped for MountainHacks 2024.",
+        "img": "./data/assets/organizers/shayaan.jpeg",
+        "socials": {
+        }
+    },
+    {
+        "name": "Sukanya Dhiman",
+        "role": "",
+        "desc": "Sophomore @ MHHS. Experienced in Unix-Like Terminals, and video editing software such as Final Cut Pro and Adobe Premiere Pro; Enjoys Photoshop and Digital Arts, been to several Hackathons and math competitions and enjoys playing competitive volleyball.",
+        "img": "./data/assets/organizers/sukanya.jpeg",
+        "socials": {
+        }
+    },
+    {
+        "name": "",
+        "role": "",
+        "desc": "",
+        "img": "./data/assets/organizers/person.jpeg",
+        "socials": {
+        }
+    },
+    {
+        "name": "",
+        "role": "",
+        "desc": "",
+        "img": "./data/assets/organizers/person.jpeg",
         "socials": {
         }
     }
