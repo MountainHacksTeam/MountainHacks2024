@@ -27,7 +27,12 @@ function updatePersonCards() {
         newPerson.querySelector("h1.section-title").innerText = person.name;
         newPerson.querySelector("h2.section-subtitle").innerText = person.role;
         newPerson.querySelector("p.desc").innerText = person.desc;
-        newPerson.querySelector("img").setAttribute("src", person.img);
+        var imgElem = newPerson.querySelector("img");
+        imgElem.setAttribute("src", person.img);
+        if (!person.img) {
+            imgElem.style.display = "none";
+            imgElem.setAttribute("data-no-img", 1);
+        }
         var socials = person.socials;
         var socialsContainer = newPerson.querySelector("div.socials");
         for (var s in socials) {
