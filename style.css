@@ -635,12 +635,26 @@ p.section-title {
     box-shadow: 0px 0px 20px #65b5ff55, inset 0px 0px 20px #65b5ff55;
     border-radius: 20px;
     padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards-container.sponsor:not(:has(*)) {
+    display: none;
+}
+
+.section-title.sponsor {
+    margin: 0;
+    font-weight: 200;
+    font-style: italic;
+    font-variant: small-caps;
 }
 
 .card.sponsor {
     max-width: 200px;
     background-color: transparent;
     border: transparent;
+    margin: 20px;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -655,27 +669,41 @@ p.section-title {
     aspect-ratio: 1;
     border-radius: 20px;
     object-fit: cover;
-    filter: var(--card-sponsor-img-filter);
-    -webkit-filter: var(--card-sponsor-img-filter);
 }
 
-.card.sponsor.no-filter img {
-    filter: none;
-    -webkit-filter: none;
+.card.sponsor.filter img {
+    filter: var(--card-sponsor-img-filter);
+    -webkit-filter: var(--card-sponsor-img-filter);
 }
 
 .card.sponsor .sponsor-name {
     text-align: center;
     transition: text-shadow 0.2s;
+    margin-top: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.card.sponsor .sponsor-desc {
+    font-size: smaller;
+    text-align: center;
+    font-style: italic;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+    text-shadow: none;
 }
 
 .card.sponsor:hover {
-    text-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 10px #ffffff66;
     transform: scale(1.1);
 }
 
 .card.sponsor:hover .section-title {
-    text-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 10px #ffffff66;
+}
+
+.card.sponsor:hover .sponsor-desc {
+    opacity: 1;
 }
 
 .card.person {

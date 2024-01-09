@@ -87,10 +87,10 @@ function scrollToContent() {
     });
 }
 
-function clearNonTemplates(containerSelector) {
-    var faqContainer = document.querySelector(containerSelector);
-    for (var e in faqContainer.children) {
-        var elem = faqContainer.children.item(e);
+function clearNonTemplates(containerSelector, element) {
+    var container = containerSelector ? document.querySelector(containerSelector) : element;
+    for (var e in container.children) {
+        var elem = container.children.item(e);
         if (!elem.classList.contains("template")) elem.remove();
     }
 }
