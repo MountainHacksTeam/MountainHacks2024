@@ -338,7 +338,7 @@ hr {
 }
 
 .banner-info-card:hover {
-    text-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 10px #ffffff66;
 }
 
 .banner-info-card ion-icon {
@@ -592,7 +592,7 @@ p.section-title {
 }
 
 .big-num-card h1 {
-    text-shadow: 0px 0px 20px #ffffff88;
+    text-shadow: 0px 0px 20px #ffffff66;
     font-size: 500%;
 }
 
@@ -827,6 +827,12 @@ p.section-title {
 
 .faq-answer {
     margin: 0;
+    font-size: larger;
+    transition: border-color 0.2s;
+}
+
+.faq-answer:hover {
+    border-color: #ffffff88;
 }
 
 @media (max-width: 900px) {
