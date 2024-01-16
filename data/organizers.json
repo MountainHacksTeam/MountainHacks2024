@@ -25,7 +25,7 @@
         "name": "Yashmit Bhaverisetti",
         "role": "Logistics/Finance",
         "desc": "Junior @ MHHS. Passionate Programmer experienced in many coding languages. Ardent in Robotics, Photography, Circuitry, Digital Art, and Scouts. Part of a VEX & FTC team. Won over half of the 15+ hackathons competed in.",
-        "img": "",
+        "img": "./data/assets/organizers/yashmit.jpg",
         "socials": {
             "instagram": "https://www.instagram.com/yashmit.bhaverisetti/",
             "github": "https://github.com/yashmitb",
@@ -35,17 +35,22 @@
     {
         "name": "Dhruv Jena",
         "role": "Logistics/Finance",
-        "desc": "",
-        "img": "",
+        "desc": "Junior @ MHHS. Fervent software engineer dedicated on learning radical ways to approach modern problems. Apart from Hackathon club, hobbies such as Tennis, Chess, and STEM spark my interest. Driven to host the best Mountain Hacks yet!",
+        "img": "./data/assets/organizers/dhruv.jpg",
         "socials": {
+            "github": "https://github.com/TheDhruvJena",
+            "linkedin": "https://www.linkedin.com/in/dhruv-jena/"
         }
     },
     {
         "name": "Ritvick Raghuvanshi",
         "role": "",
-        "desc": "",
+        "desc": "Junior @MHHS Experienced Programmer/Developer working to solve everyday problems, Ardent towards AI and Machine Learning, MHHS Basketball Team Player. Hard Working Boy Scout working towards Eagle Rank. Robotics fanatic: Vex Robotics & FTC. Competed in several Hackathons and Won Several Times! Working to create the best Mountain Hacks Yet! Hope to see you there!",
         "img": "./data/assets/organizers/ritvick.jpeg",
         "socials": {
+            "instagram": "https://www.instagram.com/ritvick.r",
+            "github": "https://github.com/Ritvick4U",
+            "linkedin": "https://www.linkedin.com/in/ritvick-raghuvanshi-5a6300264"
         }
     },
     {
@@ -61,8 +66,20 @@
         "name": "Sukanya Dhiman",
         "role": "",
         "desc": "Sophomore @ MHHS. Experienced in Unix-Like Terminals, and video editing software such as Final Cut Pro and Adobe Premiere Pro; Enjoys Photoshop and Digital Arts, been to several Hackathons and math competitions and enjoys playing competitive volleyball.",
-        "img": "",
+        "img": "./data/assets/organizers/sukanya.jpeg",
         "socials": {
+            "linkedin": "https://www.linkedin.com/in/sukanya-dhiman-90abba29a/"
+        }
+    },
+    {
+        "name": "Charlie Huang",
+        "role": "",
+        "desc": "Senior @ MHHS. President of Circuitry Club, Robotics, passionate skier, and outdoor enthusiast. Been to 8 hackathons and love the grind. Organizer in MountainHacks 2023; super excited for 2024!",
+        "img": "./data/assets/organizers/charlie.jpg",
+        "socials": {
+            "instagram": "https://instagram.com/char.787",
+            "youtube": "https://www.youtube.com/Char787",
+            "linkedin": "https://www.linkedin.com/in/charlie-huang-15010b176/"
         }
     }
 ]
