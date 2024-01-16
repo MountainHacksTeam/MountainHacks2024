@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <meta name="og:title" content="MountainHacks 2023" />
+    <meta name="og:description" content="Join an in-person hackathon for high school students!" />
+    <meta name="og:image" content="" />
+
+    <link rel="icon" href="assets/favicon.png" />
+
+    <link href='https://fonts.googleapis.com/css?family=Space Grotesk' rel='stylesheet'>
+
+    <link href="style.css" rel="stylesheet" type="text/css" id="light-theme-css" />
+    <link href="darkstyles.css" rel="stylesheet" type="text/css" id="dark-theme-css" />
+
+    <title>About | MountainHacks 2023</title>
+
+    <link rel="icon" href="" sizes="all" />
+</head>
+
+<body onload="adjustTopMargin(250)">
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <a href="..">
+                <h1 class="top-bar-title">
+                    <span id="top-bar-title-mountain">MOUNTAIN</span><span id="top-bar-title-hacks">HACKS</span>
+                </h1>
+            </a>
+        </div>
+        <div class="top-bar-right">
+            <a class="top-bar-btn" href=".">
+                <h3 class="top-bar-btn-text">
+                    HOME
+                </h3>
+            </a>
+
+            <a class="top-bar-btn" href="links/register.html" target="_blank">
+                <h3 class="top-bar-btn-text">
+                    REGISTER
+                </h3>
+            </a>
+
+            <a class="top-bar-btn" href="sponsors.html">
+                <h3 class="top-bar-btn-text">
+                    SPONSORS
+                </h3>
+            </a>
+
+            <a class="top-bar-btn" href="aboutus.html">
+                <h3 class="top-bar-btn-text selected-page">
+                    ABOUT US
+                </h3>
+            </a>
+
+            <a class="top-bar-btn top-bar-menu-btn" id="site-menu-btn">
+                <ion-icon name="menu"></ion-icon>
+                <h3 class="top-bar-btn-text">
+                    MENU
+                </h3>
+            </a>
+        </div>
+    </div>
+    <div class="site-menu" id="site-menu">
+        <script src="js/siteMenuLoader.js" type="text/javascript"></script>
+    </div>
+    <div class="page-content">
+        <div class="page-banner page-banner-small">
+            <div class="page-banner-left">
+                <h1 class="page-banner-left-page-title">ABOUT US</h1>
+            </div>
+            <div class="page-banner-right">
+                <h1 class="page-banner-title">MOUNTAIN</h1>
+                <h2 class="page-banner-subtitle">HACKS</h2>
+            </div>
+
+            <div class="page-banner-effect-container">
+                <img src="assets/mountains_wide.svg" id="mountain" />
+            </div>
+            <div class="page-banner-effect-container" id="stars-canvas-container">
+                <canvas width="100%" height="100%" id="stars-canvas"></canvas>
+            </div>
+        </div>
+        <div class="page-main-content">
+            <div class="page-section">
+                <h1 class="page-section-title">
+                    ABOUT THE ORGANIZERS
+                </h1>
+                <p class="page-section-description center-text">
+                    MountainHacks is organized by a team of passionate developers in the MHHS Hackathon Club, the
+                    largest high-school club of hackers in California! Our mission is to provide students with
+                    opportunities to show their skills and learn through experience. We accomplish this through our many
+                    programs and activities, including our signature event, MountainHacks!
+                </p>
+            </div>
+
+            <div class="page-card-container small-page-card-container">
+                <div class="page-card page-card-person">
+                    <img class="page-card-img page-card-person-img" src="assets/officers/sambhav.jpeg" />
+                    <h1 class="page-section-title">
+                        Sambhav Agarwal
+                    </h1>
+                    <h2 class="page-card-person-subtitle">
+                        Logistics
+                    </h2>
+                    <p class="page-section-description">
+                        Senior @ MHHS. President of Hackathon Club at MHHS. Loves Web Dev, singing, running, and jamming
+                        on the guitar. Has taken leadership in many organizations such as SkillsUSA and DECA. Enjoys
+                        participating in hackathons and has won many solving dilemmas during the pandemic. Innovator and
+                        winner!
+                    </p>
+                    <div class="page-card-socials-container">
+                        <a class="page-card-social-link" href="https://www.instagram.com/sammy_bhav/" target="_blank">
+                            <img src="assets/icons/instagram.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://www.linkedin.com/in/sambhav-agarwal-45b704225/"
+                            target="_blank">
+                            <img src="assets/icons/linkedin.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://github.com/sambhavagarawal" target="_blank">
+                            <img src="assets/icons/github.png" />
+                        </a>
+                    </div>
+                </div>
+                <div class="page-card page-card-person">
+                    <img class="page-card-img page-card-person-img" src="assets/officers/samarth.jpeg" />
+                    <h1 class="page-section-title">
+                        Samarth Hiremath
+                    </h1>
+                    <h2 class="page-card-person-subtitle">
+                        Logistics
+                    </h2>
+                    <p class="page-section-description">
+                        Senior at MHHS. Vice President of Hackathon Club. Experience with web dev and machine learning
+                        algorithms. Hosted summer Python Programming Bootcamp for 120+ students over 3 summers. Enjoy
+                        jamming on my guitar, photography, and badminton. Always willing to learn, explore, and come out
+                        victorious!
+                    </p>
+                    <div class="page-card-socials-container">
+                        <a class="page-card-social-link" href="https://www.instagram.com/samarth_hiremath1/"
+                            target="_blank">
+                            <img src="assets/icons/instagram.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://www.linkedin.com/in/samarth-hiremath-a0a54a236/"
+                            target="_blank">
+                            <img src="assets/icons/linkedin.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://github.com/Samarth-Hiremath1" target="_blank">
+                            <img src="assets/icons/github.png" />
+                        </a>
+                    </div>
+                </div>
+                <div class="page-card page-card-person">
+                    <img class="page-card-img page-card-person-img" src="assets/officers/charlie.png" />
+                    <h1 class="page-section-title">
+                        Charlie Huang
+                    </h1>
+                    <h2 class="page-card-person-subtitle">
+                        Logistics
+                    </h2>
+                    <p class="page-section-description">
+                        Aspiring engineer, interested in social good projects toward
+                        the betterment of society. Passionate skier and Scout, advocating
+                        for nature conservation. Hardcore hackathon competitor and
+                        anti-procrastinator.
+                    </p>
+                    <div class="page-card-socials-container">
+                        <a class="page-card-social-link" href="https://www.instagram.com/char.787/" target="_blank">
+                            <img src="assets/icons/instagram.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://www.linkedin.com/in/charlie-huang-15010b176/"
+                            target="_blank">
+                            <img src="assets/icons/linkedin.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://www.youtube.com/char787" target="_blank">
+                            <img src="assets/icons/youtube.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://char787.com/" target="_blank">
+                            <img src="assets/icons/globe.png" />
+                        </a>
+                    </div>
+                </div>
+                <div class="page-card page-card-person">
+                    <img class="page-card-img page-card-person-img" src="assets/officers/sahasra.jpeg" />
+                    <h1 class="page-section-title">
+                        Sahasra Kairamkonda
+                    </h1>
+                    <h2 class="page-card-person-subtitle">
+                        Marketing
+                    </h2>
+                    <p class="page-section-description">
+                        Junior @ MHHS. Publicist of Hackathon Club and President of USACO Club. Web developer, machine
+                        learning enthusiast, and marketing strategist. Enjoys digital art and design, good food, and
+                        practicing guitar. Always looking for ways to explore!
+                    </p>
+                    <div class="page-card-socials-container">
+                        <a class="page-card-social-link"
+                            href="https://www.linkedin.com/in/sahasra-kairamkonda-55258b245/" target="_blank">
+                            <img src="assets/icons/linkedin.png" />
+                        </a>
+                    </div>
+                </div>
+                <div class="page-card page-card-person">
+                    <img class="page-card-img page-card-person-img" src="assets/officers/akshat.png" />
+                    <h1 class="page-section-title">
+                        Akshat Sehgal
+                    </h1>
+                    <h2 class="page-card-person-subtitle">
+                        Development
+                    </h2>
+                    <p class="page-section-description">
+                        Programmer, Music Producer, & 3D Artist. Sophomore at MHHS. Enjoys Scouts, working out, playing
+                        chess, playing basketball, robotics, circuitry, web development, game development, and producing
+                        music. Hackathon enthusiast; Been to 13+ hackathons and won many prizes!
+                    </p>
+                    <div class="page-card-socials-container">
+                        <a class="page-card-social-link" href="https://www.theakze.xyz" target="_blank">
+                            <img src="assets/icons/globe.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://www.youtube.com/@the_akze" target="_blank">
+                            <img src="assets/icons/youtube.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://twitter.com/the_akze" target="_blank">
+                            <img src="assets/icons/twitter.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://www.linkedin.com/in/akshat-sehgal-602379260/"
+                            target="_blank">
+                            <img src="assets/icons/linkedin.png" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="page-card page-card-person">
+                    <img class="page-card-img page-card-person-img" src="assets/officers/yashmit.png" />
+                    <h1 class="page-section-title">
+                        Yashmit Bhaverisetti
+                    </h1>
+                    <h2 class="page-card-person-subtitle">
+                        Finance
+                    </h2>
+                    <p class="page-section-description">
+                        Sophomore at Mountain House High. Passionate
+                        Programmer experienced in many coding
+                        languages. Ardent about digital arts,
+                        photography, circuitry, robotics, and Scouts.
+                        Dedicated hackathon competitor, been to 13+
+                        hackathons and won over half of them!
+                    </p>
+                    <div class="page-card-socials-container">
+                        <a class="page-card-social-link" href="https://yashmitb.github.io/yashmitb/" target="_blank">
+                            <img src="assets/icons/globe.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://www.instagram.com/yashmit.bhaverisetti/"
+                            target="_blank">
+                            <img src="assets/icons/instagram.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://github.com/yashmitb" target="_blank">
+                            <img src="assets/icons/github.png" />
+                        </a>
+                        <a class="page-card-social-link"
+                            href="https://www.linkedin.com/in/yashmit-bhaverisetti-77b211261/" target="_blank">
+                            <img src="assets/icons/linkedin.png" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="page-card page-card-person">
+                    <img class="page-card-img page-card-person-img" src="assets/officers/dhruv.png" />
+                    <h1 class="page-section-title">
+                        Dhruv Jena
+                    </h1>
+                    <h2 class="page-card-person-subtitle">
+                        Finance
+                    </h2>
+                    <p class="page-section-description">
+                        Sophomore @ MHHS. Loves programming, math,
+                        playing tennis, and learning new things.
+                        Over 10+ years in Computer Science and
+                        Competitive math. ACSL Bronze, Math Kangaroo
+                        3rd and 8th place, USACO Silver, DECA State
+                        Conference 2022.
+                    </p>
+                    <div class="page-card-socials-container">
+                        <a class="page-card-social-link" href="https://twitter.com/thedhruvjena" target="_blank">
+                            <img src="assets/icons/twitter.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://github.com/TheDhruvJena" target="_blank">
+                            <img src="assets/icons/github.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://www.instagram.com/thedhruvjena/" target="_blank">
+                            <img src="assets/icons/instagram.png" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="page-card page-card-person">
+                    <img class="page-card-img page-card-person-img" src="assets/officers/parthiv.jpeg" />
+                    <h1 class="page-section-title">
+                        Parthiv Algubelli
+                    </h1>
+                    <h2 class="page-card-person-subtitle">
+                        Marketing
+                    </h2>
+                    <p class="page-section-description">
+                        Sophomore at MHHS. Competed in state level DECA conferences & hackathons, and created a
+                        non-profit CS organization. Programmer with huge passion for technology and strong understanding
+                        of Python & Java. Avid learner, always seeking to expand skills, knowledge, and intellect.
+                    </p>
+                    <div class="page-card-socials-container">
+                        <a class="page-card-social-link" href="https://www.instagram.com/parthivv_a/" target="_blank">
+                            <img src="assets/icons/instagram.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://github.com/parthivvA" target="_blank">
+                            <img src="assets/icons/github.png" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="page-card page-card-person">
+                    <img class="page-card-img page-card-person-img" src="assets/officers/aadhith.png" />
+                    <h1 class="page-section-title">
+                        Aadhith Rajinikanth
+                    </h1>
+                    <h2 class="page-card-person-subtitle">
+                        Finance
+                    </h2>
+                    <p class="page-section-description">
+                        Sophomore at Mountain House High School.
+                        Programmer, engineer, and aspiring
+                        entrepreneur; enthusiastic about robotics
+                        and innovation. Competed in hackathons,
+                        created an FTC team, and competed in DECA
+                        state conferences. Loves art and playing
+                        chess.
+                    </p>
+                    <div class="page-card-socials-container">
+                        <a class="page-card-social-link"
+                            href="https://www.linkedin.com/in/aadhith-rajinikanth-3b8b52259/" target="_blank">
+                            <img src="assets/icons/linkedin.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://www.instagram.com/aadhith18/" target="_blank">
+                            <img src="assets/icons/instagram.png" />
+                        </a>
+                        <a class="page-card-social-link" href="https://twitter.com/Aadhith__Raj" target="_blank">
+                            <img src="assets/icons/twitter.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div class="page-section">
+                <h1 class="page-section-title">
+                    JUDGES
+                </h1>
+                <!--                 <p class="page-section-description center-text">
+                    Meet the judges of MountainHacks, professionals from various companies that will be evaluating your projects!
+                </p> -->
+                <p class="page-section-description center-text">
+                    On <a href="links/devpost.html" target="_blank">MountainHacks Devpost</a>
+                </p>
+            </div>
+
+            <!-- will uncomment and modify when have judges -->
+
+            <!--             <div class="page-card-container small-page-card-container">
+                <div class="page-card page-card-person">
+                    <img
+                        class="page-card-img page-card-person-img"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu3_qIHtXBZ7vZeMQhyD8qLC1VRB9ImHadL09KET_iSQEX6ags4ICknfmqEKz8Nf6IOsA&usqp=CAU"/>
+                    <h1 class="page-section-title">
+                        Person One
+                    </h1>
+                    <p class="page-section-description">
+                        Description about this person or a quote from them.
+                    </p>
+                    <div class="page-card-socials-container">
+                        <a class="page-card-social-link" href="">
+                            <img src="assets/icons/globe.png"/>
+                        </a>
+                        <a class="page-card-social-link" href="">
+                            <img src="assets/icons/instagram.png"/>
+                        </a>
+                        <a class="page-card-social-link" href="">
+                            <img src="assets/icons/twitter.png"/>
+                        </a>
+                        <a class="page-card-social-link" href="">
+                            <img src="assets/icons/linkedin.png"/>
+                        </a>
+                    </div>
+                </div>
+            
+                <div class="page-card page-card-person">
+                    <img
+                        class="page-card-img page-card-person-img"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu3_qIHtXBZ7vZeMQhyD8qLC1VRB9ImHadL09KET_iSQEX6ags4ICknfmqEKz8Nf6IOsA&usqp=CAU"/>
+                    <h1 class="page-section-title">
+                        Person Two
+                    </h1>
+                    <p class="page-section-description">
+                        Description about this person or a quote from them.
+                    </p>
+                    <div class="page-card-socials-container">
+                        <a class="page-card-social-link" href="">
+                            <img src="assets/icons/globe.png"/>
+                        </a>
+                        <a class="page-card-social-link" href="">
+                            <img src="assets/icons/instagram.png"/>
+                        </a>
+                        <a class="page-card-social-link" href="">
+                            <img src="assets/icons/twitter.png"/>
+                        </a>
+                        <a class="page-card-social-link" href="">
+                            <img src="assets/icons/linkedin.png"/>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+            <div id="footer-container">
+                <script src="js/footerLoader.js"></script>
+            </div>
+        </div>
+    </div>
+
+    <div class="theme-toggle-btn-container" onclick="toggleTheme()">
+        <ion-icon name="sunny" class="theme-toggle-btn" id="light-theme-sun"></ion-icon>
+        <ion-icon name="moon" class="theme-toggle-btn" id="dark-theme-moon"></ion-icon>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/scrollEffect.js"></script>
+
+    <!--     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+    <script type="module" src="dbConfig.js"></script> -->
+
+    <script src="libraries/three.min.js"></script>
+    <script src="js/stars.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+</html>
