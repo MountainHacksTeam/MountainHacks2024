@@ -13,15 +13,6 @@
         }
     },
     {
-        "name": "Sahasra Kairamkonda",
-        "role": "Logistics/Marketing",
-        "desc": "Senior @ MHHS. Web developer, machine learning enthusiast, and AI ethics proponent. Enjoys creating digital art and trying new foods. Always looking for ways to explore!",
-        "img": "./data/assets/organizers/sahasra.jpg",
-        "socials": {
-            "linkedin": "https://www.linkedin.com/in/sahasra-kairamkonda/"
-        }
-    },
-    {
         "name": "Yashmit Bhaverisetti",
         "role": "Logistics/Finance",
         "desc": "Junior @ MHHS. Passionate Programmer experienced in many coding languages. Ardent in Robotics, Photography, Circuitry, Digital Art, and Scouts. Part of a VEX & FTC team. Won over half of the 15+ hackathons competed in.",
