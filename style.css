@@ -298,6 +298,10 @@ hr {
     height: calc(100vh - var(--top-bar-height));
     min-height: max-content;
     overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .banner * {
@@ -306,9 +310,8 @@ hr {
 
 .banner-content {
     position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    align-self: center;
+    justify-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -391,7 +394,11 @@ hr {
     pointer-events: none;
     margin: 0px;
     padding: 0px;
-    opacity: 0.5;
+    opacity: 0.75;
+}
+
+.banner-bg-effect.faint {
+    opacity: 0.35;
 }
 
 #down-arrow-container {
@@ -456,7 +463,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00000066;
+    background-color: #13204766;
     background-position: center;
     background-size: 70%;
     background-repeat: no-repeat;
@@ -540,6 +547,11 @@ hr {
     padding-top: 10px;
     padding-bottom: 10px;
     align-self: center;
+}
+
+.banner.section {
+    height: fit-content;
+    width: 100%;
 }
 
 .section.side-by-side {
