@@ -74,6 +74,10 @@ a[disabled], button[disabled], .button[disabled] {
     filter: brightness(0.5);
 }
 
+.large {
+    font-size: 200%;
+}
+
 @keyframes link-after-point {
     0%, 100% {
         transform: translate(-1px, 1px);
@@ -394,7 +398,7 @@ hr {
     pointer-events: none;
     margin: 0px;
     padding: 0px;
-    opacity: 0.75;
+    opacity: 0.6;
 }
 
 .banner-bg-effect.faint {
