@@ -35,7 +35,7 @@
     },
     {
         "name": "Ritvick Raghuvanshi",
-        "role": "",
+        "role": "Finance",
         "desc": "Junior @MHHS Experienced Programmer/Developer working to solve everyday problems, Ardent towards AI and Machine Learning, MHHS Basketball Team Player. Hard Working Boy Scout working towards Eagle Rank. Robotics fanatic: Vex Robotics & FTC. Competed in several Hackathons and Won Several Times! Working to create the best Mountain Hacks Yet! Hope to see you there!",
         "img": "./data/assets/organizers/ritvick.jpeg",
         "socials": {
@@ -46,7 +46,7 @@
     },
     {
         "name": "Shayaan Tanveer",
-        "role": "",
+        "role": "Marketing",
         "desc": "Senior @ MHHS. I like coding and technology because they are very cool. I’m very hyped for MountainHacks 2024.",
         "img": "./data/assets/organizers/shayaan.jpg",
         "socials": {
@@ -55,7 +55,7 @@
     },
     {
         "name": "Sukanya Dhiman",
-        "role": "",
+        "role": "Marketing",
         "desc": "Sophomore @ MHHS. Experienced in Unix-Like Terminals, and video editing software such as Final Cut Pro and Adobe Premiere Pro; Enjoys Photoshop and Digital Arts, been to several Hackathons and math competitions and enjoys playing competitive volleyball.",
         "img": "./data/assets/organizers/sukanya.jpeg",
         "socials": {
@@ -75,7 +75,7 @@
     },
     {
         "name": "Rayan Mohammed",
-        "role": "",
+        "role": "Finance",
         "desc": "Junior @ MHHS. Robotics, Moderate Web Developer, Machine Learning Student, Varsity Track, Organizer in MountainHacks ‘23, Attended Several Hackathons & Won a Few, Near Eagle-Scout in Boy Scouts of America. Overall, I’m excited for this year!",
         "_img": "./data/assets/organizers/rayan.jpg",
         "socials": {
