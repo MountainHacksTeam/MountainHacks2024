@@ -82,5 +82,16 @@
             "instagram": "https://instagram.com/sleepy.rayn",
             "github": "https://github.com/RayanMohammed"
         }
+    },
+    {
+        "name": "Aadhith Rajinikanth",
+        "role": "Finance",
+        "desc": "Junior @ MHHS. Highly interested in AI, and have developed several AI/software applications. FTC robotics team captain, and DECA member. Apart from this, hobbies include art, calisthenics, and cars.",
+        "img": "./data/assets/organizers/aadhith.jpg",
+        "socials": {
+            "instagram": "https://www.instagram.com/aadhith18/",
+            "github": "https://github.com/Aadhithr",
+            "linkedin": "https://www.linkedin.com/in/aadhithrajinikanth/"
+        }
     }
 ]
