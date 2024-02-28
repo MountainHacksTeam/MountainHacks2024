@@ -1,10 +1,5 @@
 [
     {
-        "name": "Full list coming soon!",
-        "img": "./assets/img/mountainhacks_logo.png",
-        "url": ""
-    },
-    {
         "name": "HCB",
         "desc": "MountainHacks 2024 is fiscally sponsored by HackClub!",
         "img": "./data/assets/sponsors/hcb.png",
