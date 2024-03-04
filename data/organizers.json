@@ -93,5 +93,14 @@
             "github": "https://github.com/Aadhithr",
             "linkedin": "https://www.linkedin.com/in/aadhithrajinikanth/"
         }
+    },
+    {
+        "name": "Ishita Ahelleya",
+        "role": "Finance",
+        "desc": "Freshman @ MHHS. Developed numerous website and apps and currently learning AI. Plays for MHHS girls tennis and track. Excited for MountainHacks 24!",
+        "img": "./data/assets/organizers/ishita.jpg",
+        "socials": {
+            "instagram": "https://www.instagram.com/ishda_25/"
+        }
     }
 ]
