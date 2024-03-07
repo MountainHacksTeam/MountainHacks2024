@@ -77,7 +77,7 @@
         "name": "Rayan Mohammed",
         "role": "Finance",
         "desc": "Junior @ MHHS. Robotics, Moderate Web Developer, Machine Learning Student, Varsity Track, Organizer in MountainHacks ‘23, Attended Several Hackathons & Won a Few, Near Eagle-Scout in Boy Scouts of America. Overall, I’m excited for this year!",
-        "_img": "./data/assets/organizers/rayan.jpg",
+        "img": "./data/assets/organizers/rayan.jpg",
         "socials": {
             "instagram": "https://instagram.com/sleepy.rayn",
             "github": "https://github.com/RayanMohammed"
