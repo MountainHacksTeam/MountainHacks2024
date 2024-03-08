@@ -354,6 +354,7 @@ hr {
     align-items: center;
     justify-content: center;
     text-shadow: 0px 0px 10px #000000;
+    margin: 5px;
 }
 
 .banner-info-card:hover {
@@ -894,22 +895,17 @@ p.section-title {
 
 @media (max-width: 900px) {
     .banner-info-card {
-        padding: 4px;
-        padding-left: 20px;
-        padding-right: 20px;
         border-radius: 8px;
         min-width: initial;
         width: fit-content;
-        margin: 2px;
+        font-size: 75%;
     }
     .banner-info-card ion-icon {
-        font-size: 50px;
-        margin-right: 12px;
+        /* font-size: ; */
     }
     .banner-info-card h1 {
         font-size: 150%;
     }
-
     .banner-quick-link {
         padding: 10px;
     }
