@@ -61,7 +61,7 @@
                         <a class="banner-info-card" href="./assets/misc/MountainHacks2024Calendar.ics" target="_blank">
                             <ion-icon name="calendar"></ion-icon>
                             <h2>
-                                March 16, 2024
+                                April 20, 2024
                             </h2>
                         </a>
                         <a class="banner-info-card" href="https://maps.app.goo.gl/W9Rfu7AQEM6so5yA7" target="_blank">
@@ -110,9 +110,18 @@
             <a class="social yt" href="https://www.youtube.com/@mountainhacks" target="_blank"></a>
         </div>
         <div class="page-content">
-            <!-- <div class="section">
-                <p class="center-text desc-font"><i>This website is a work in progress.</i></p>
-            </div> -->
+
+            <div class="section banner" data-section="hook" style="background-color: #0061bc; display: none;" id="postpone-notice">
+                <h2 class="section-title center-text no-margin" style="font-style: italic;">
+                    MountainHacks has been postponed to April 20, 2024.
+                </h2>
+            </div>
+            <script>
+                if (new Date().getTime() < 1711929600000) {
+                    document.body.querySelector("#postpone-notice").style.display = "flex";
+                }
+            </script>
+
             <div class="section banner" data-section="hook">
                 <div class="banner-content">
                     <h1 class="section-title center-text desc-font">ANOTHER YEAR OF MOUNTAIN HACKS</h1>
@@ -151,7 +160,7 @@
                     ABOUT
                 </h1>
                 <p class="center-text">
-                    A 14-hour hackathon for high-school students taking place on March 16, 2024 at Mountain House High School!
+                    A 14-hour hackathon for high-school students taking place on April 20, 2024 at Mountain House High School!
                 </p>
                 <div class="cards-container">
                     <div class="card">
@@ -192,7 +201,7 @@
                             WHEN?
                         </h2>
                         <p>
-                            MountainHacks 2024 will be taking place on March 16, 2024 from 7:15 AM - 9:30 PM.
+                            MountainHacks 2024 will be taking place on April 20, 2024 from 7:15 AM - 9:30 PM.
                         </p>
                     </div>
                 </div>
