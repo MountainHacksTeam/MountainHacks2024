@@ -3,6 +3,56 @@
         "name": "HCB",
         "desc": "MountainHacks 2024 is fiscally sponsored by HackClub!",
         "img": "./data/assets/sponsors/hcb.png",
-        "url": "https://hcb.hackclub.com/mountainhacks24"
+        "url": "https://hackclub.com/fiscal-sponsorship/"
+    },
+    {
+        "name": "gen.xyz",
+        "img": "./data/assets/sponsors/genxyz.png",
+        "url": "https://gen.xyz/"
+    },
+    {
+        "name": "Taskade",
+        "img": "./data/assets/sponsors/taskade.png",
+        "url": "https://www.taskade.com/"
+    },
+    {
+        "name": "Wolfram Alpha",
+        "img": "./data/assets/sponsors/wolframalpha.png",
+        "url": "https://www.wolframalpha.com/"
+    },
+    {
+        "name": "Echo3D",
+        "img": "./data/assets/sponsors/echo3d.jpg",
+        "url": "https://www.echo3d.com/"
+    },
+    {
+        "name": "Interview Cake",
+        "img": "./data/assets/sponsors/interviewcake.png",
+        "url": "https://www.interviewcake.com/"
+    },
+    {
+        "name": "THub Cafe",
+        "img": "./data/assets/sponsors/thub.png",
+        "url": "https://thubcafe.com/"
+    },
+    {
+        "name": "Desmos",
+        "img": "./data/assets/sponsors/desmos.png",
+        "url": "https://www.desmos.com/"
+    },
+    {
+        "name": "Axure",
+        "img": "./data/assets/sponsors/axure.png",
+        "url": "https://www.axure.com/"
+    },
+    {
+        "name": "Sticker Ninja",
+        "img": "./data/assets/sponsors/stickerninja.png",
+        "url": "https://stickerninja.com/"
+    },
+    {
+        "name": "StickerYou",
+        "img": "./data/assets/sponsors/stickeryou.png",
+        "url": "https://www.stickeryou.com/"
     }
 ]
