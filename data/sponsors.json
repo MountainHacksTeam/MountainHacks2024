@@ -6,6 +6,11 @@
         "url": "https://hackclub.com/fiscal-sponsorship/"
     },
     {
+        "name": "Code for Cause",
+        "img": "./data/assets/sponsors/codeforcause.png",
+        "url": "https://www.codeforcause.dev/hackathons"
+    },
+    {
         "name": "gen.xyz",
         "img": "./data/assets/sponsors/genxyz.png",
         "url": "https://gen.xyz/"
