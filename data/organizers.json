@@ -1,7 +1,7 @@
 [
     {
         "name": "Akshat Sehgal",
-        "role": "Logistics/Dev/Marketing",
+        "role": "LEAD\nLogistics/Dev/Marketing",
         "desc": "Junior @ MHHS, Programmer/Dev, Music Producer, 3D Artist, Video Editor, Photographer, Boy Scout, and Robotics enthusiast. Been to 15+ hackathons and won tons of prizes. Officer of Hackathon, Circuitry, and Robotics Club, and part of VEX robotics. Excited to be lead of MountainHacks 2024!",
         "img": "./data/assets/organizers/akshat.JPG",
         "socials": {
@@ -14,7 +14,7 @@
     },
     {
         "name": "Yashmit Bhaverisetti",
-        "role": "Logistics/Finance",
+        "role": "LEAD\nLogistics/Finance",
         "desc": "Junior @ MHHS. President of Hackathon Club & VP of Robotics Club. Passionate Programmer experienced in many coding languages. Ardent in Robotics, Photography, Circuitry, Digital Art, and Scouts(Eagle Scout 2023). Part of a VEX team & FTC team. Won over half of the 15+ hackathons competed in. Organizer in MountainHacks 2023; Aiming to reach new heights for Mountain Hacks 2024!",
         "img": "./data/assets/organizers/yashmit.jpg",
         "socials": {
@@ -25,7 +25,7 @@
     },
     {
         "name": "Dhruv Jena",
-        "role": "Logistics/Finance",
+        "role": "LEAD\nLogistics/Finance",
         "desc": "Junior @ MHHS. Fervent software engineer dedicated on learning radical ways to approach modern problems. Apart from Hackathon club, hobbies such as Tennis, Chess, and STEM spark my interest. Driven to host the best Mountain Hacks yet!",
         "img": "./data/assets/organizers/dhruv.jpg",
         "socials": {
@@ -35,7 +35,7 @@
     },
     {
         "name": "Ritvick Raghuvanshi",
-        "role": "Finance",
+        "role": "LEAD\nLogistics/Finance",
         "desc": "Junior @MHHS Experienced Programmer/Developer working to solve everyday problems, Ardent towards AI and Machine Learning, MHHS Basketball Team Player. Hard Working Boy Scout working towards Eagle Rank. Robotics fanatic: Vex Robotics & FTC. Competed in several Hackathons and Won Several Times! Working to create the best Mountain Hacks Yet! Hope to see you there!",
         "img": "./data/assets/organizers/ritvick.jpeg",
         "socials": {
