@@ -46,6 +46,7 @@
         .amt {
             font-family: monospace;
             color: lightblue;
+            text-align: center;
         }
 
         h1.amt {
@@ -55,11 +56,15 @@
         h2.amt {
             font-size: 500%;
         }
+
+        .over {
+            display: none;
+        }
     </style>
 </head>
 
 <body>
-    <div class="main-container">
+    <div class="main-container going">
         <br>
         <br>
         <br>
@@ -72,6 +77,7 @@
         <br>
         <p>
             Projects due 6:30!!!
+        </p>
         <br>
         <br>
         <h1 class="amt">
@@ -100,18 +106,49 @@
         </a>
     </div>
 
+    <div class="main-container over">
+        <br>
+        <br>
+        <br>
+        <a href="/">
+            <h2>
+                ← HOME
+            </h2>
+        </a>
+        <br>
+        <br>
+        <h1 class="amt">
+            IT'S OVER!
+        </h1>
+        <br>
+        <br>
+        <a href="https://mountainhacks24.devpost.com/">
+            <h2>
+                mountainhacks24.devpost.com
+            </h2>
+        </a>
+    </div>
+
     <script>
         addEventListener("DOMContentLoaded", () => {
-            let amtText1 = document.querySelector("h1.amt");
-            let amtText2 = document.querySelector("h2.amt");
             let due = 1713663000000;
-            setInterval(() => {
-                let now = new Date().getTime();
-                let remainingMs = due - now;
-                let remainingMin = Math.round(remainingMs / 1000 / 60);
-                amtText1.innerHTML = remainingMs;
-                amtText2.innerHTML = remainingMin;
-            }, 9);
+            let now = new Date().getTime();
+            let remainingMs = due - now;
+            if (remainingMs < 0) {
+                document.querySelector(".going").style.display = "none";
+                document.querySelector(".over").style.display = "flex";
+            }
+            else {
+                let amtText1 = document.querySelector("h1.amt");
+                let amtText2 = document.querySelector("h2.amt");
+                setInterval(() => {
+                    let now = new Date().getTime();
+                    let remainingMs = due - now;
+                    let remainingMin = Math.round(remainingMs / 1000 / 60);
+                    amtText1.innerHTML = remainingMs;
+                    amtText2.innerHTML = remainingMin;
+                }, 9);
+            }
         })
     </script>
 </body>
